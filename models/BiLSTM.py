@@ -130,6 +130,7 @@ if __name__ == '__main__':
     with tf.Session() as sess:
         sess.run([init_global, init_local])
         while rounds <= config['num_epochs']:
+            # -- train
             i = 1
             c_loss = 0.0
             while i <= int(config['train_size']/config['batch_size'])+1:
@@ -139,7 +140,8 @@ if __name__ == '__main__':
                 i += 1
                 c,_ = sess.run([model.obj, train_step], feed_dict={model.x1: train_q1, model.x2: train_q2, model.y: train_y})
                 c_loss += c
-            i = 0
+            # -- validate 
+            i = 1
             c_val_loss = 0.0
             probs = []
             label = []
