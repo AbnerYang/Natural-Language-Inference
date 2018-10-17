@@ -96,6 +96,11 @@ class BiLSTM(object):
             scores = tf.nn.xw_plus_b(fc3_act, self.W, self.b, name="classifer")
             return scores
 
+    def model_summary():
+        model_vars = tf.trainable_variables()
+        slim.model_analyzer.analyze_vars(model_vars, print_info=True)
+
+
 
 if __name__ == '__main__':
     config = {
@@ -113,7 +118,7 @@ if __name__ == '__main__':
     # create model instance
     print('load model...')
     model = BiLSTM(config)
-    model_summary()
+    model.model_summary()
 
     train_step = tf.train.AdamOptimizer(0.0005).minimize(model.obj)
 
