@@ -36,7 +36,14 @@ two words.
 > 6. Cross-bigrams: for every pair of bigrams across the premise and hypothesis which share a POS tag on the second word, an indicator
 feature over the two bigrams.
 
-## encoder-based model
+## Encoder-based model
+> The encoder-based models were mainly built based on LSTM, CNN, Tree-LSTM and so on. In this section, i will introduce three papers as follows. These three models are representative.
 
-## attention-based model
+> 1. [Bowman S R, Angeli G, Potts C, et al. A large annotated corpus for learning natural language inference[J]. arXiv preprint arXiv:1508.05326, 2015.](https://nlp.stanford.edu/pubs/snli_paper.pdf)
+
+![Alt text](imgs/15LSTM.jpg)
+
+
+
+## Attention-based model
 
