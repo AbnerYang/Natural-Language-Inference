@@ -10,3 +10,11 @@
 
 ![Alt text](imgs/framework.jpg)
 
+> In the next section, I will mainly introduce the feature-based model, encoder-based model, and attention-based model.
+
+## Feature based model
+
+## encoder-based model
+
+## attention-based model
+
