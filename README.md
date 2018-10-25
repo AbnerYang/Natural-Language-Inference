@@ -8,11 +8,14 @@
 
 > There are usually three types of data (Premise, Hypothesis and label) to complete this task. 
 
-flow
-st=>start: Start
+```flow
+st=>start: Start:>https://www.markdown-syntax.com
+io=>inputoutput: verification
 op=>operation: Your Operation
 cond=>condition: Yes or No?
+sub=>subroutine: Your Subroutine
 e=>end
-st->op->cond
+st->io->op->cond
 cond(yes)->e
-cond(no)->op
+cond(no)->sub->io
+` ``
