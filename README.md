@@ -18,13 +18,23 @@
 
 > [Bowman S R, Angeli G, Potts C, et al. A large annotated corpus for learning natural language inference[J]. arXiv preprint arXiv:1508.05326, 2015.](https://nlp.stanford.edu/pubs/snli_paper.pdf)
 
-'''
 
-I wrote the [code](models/feature_based.py) to build these following features:
+> I wrote the [code](models/feature_based.py) to build these following features:
 
-1. The BLEU score of the hypothesis with respect to the premise, using an n-gram length between 1 and 4.
+> 1. The BLEU score of the hypothesis with respect to the premise, using an n-gram length between 1 and 4.
 
-'''
+> 2. The length difference between the hypothesis and the premise, as a real-valued feature.
+
+> 3. The overlap between words in the premise and hypothesis, both as an absolute count and a percentage of possible overlap, and both
+over all words and over just nouns, verbs, adjectives, and adverbs.
+
+> 4. An indicator for every unigram and bigram in the hypothesis.
+
+> 5. Cross-unigrams: for every pair of words across the premise and hypothesis which share a POS tag, an indicator feature over the
+two words.
+
+> 6. Cross-bigrams: for every pair of bigrams across the premise and hypothesis which share a POS tag on the second word, an indicator
+feature over the two bigrams.
 
 ## encoder-based model
 
