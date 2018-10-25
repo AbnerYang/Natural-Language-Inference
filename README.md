@@ -19,9 +19,11 @@
 > [Bowman S R, Angeli G, Potts C, et al. A large annotated corpus for learning natural language inference[J]. arXiv preprint arXiv:1508.05326, 2015.](https://nlp.stanford.edu/pubs/snli_paper.pdf)
 
 '''
-I wrote the [code](model/feature_based.py) to build these following features:
+
+I wrote the [code](models/feature_based.py) to build these following features:
 
 1. The BLEU score of the hypothesis with respect to the premise, using an n-gram length between 1 and 4.
+
 '''
 
 ## encoder-based model
