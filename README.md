@@ -8,7 +8,7 @@
 
 > There are usually three types of data (Premise, Hypothesis and label) to complete this task. The relationship of different component can be found as follows:
 
-![Alt text](imgs/framework.jpg)
+<div align=center>![Alt text](imgs/framework.jpg)</div>
 
 > In the next section, I will mainly introduce the feature-based model, encoder-based model, and attention-based model.
 
@@ -41,7 +41,7 @@ feature over the two bigrams.
 
 > 1. [Bowman S R, Angeli G, Potts C, et al. A large annotated corpus for learning natural language inference[J]. arXiv preprint arXiv:1508.05326, 2015.](https://nlp.stanford.edu/pubs/snli_paper.pdf)
 
-![Alt text](imgs/15LSTM.jpg)
+<div align=center>![Alt text](imgs/15LSTM.jpg)</div>
 
 
 
