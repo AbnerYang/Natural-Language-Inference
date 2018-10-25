@@ -9,6 +9,10 @@
 > There are usually three types of data (Premise, Hypothesis and label) to complete this task. The relationship of different component can be found as follows:
 
 <div align=center>
+  <img width="50%" height="15%" src="imgs/framework.jpg"/>
+</div>
+
+<div align=center>
   ![Alt text](imgs/framework.jpg)
 </div>
 
