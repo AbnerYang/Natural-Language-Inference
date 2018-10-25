@@ -41,13 +41,20 @@ feature over the two bigrams.
 ## Encoder-based model
 > The encoder-based models were mainly built based on LSTM, CNN, Tree-LSTM and so on. In this section, i will introduce three papers as follows. These three models are representative.
 
-> 1. [Bowman S R, Angeli G, Potts C, et al. A large annotated corpus for learning natural language inference[J]. arXiv preprint arXiv:1508.05326, 2015.](https://nlp.stanford.edu/pubs/snli_paper.pdf)
+> 1. LSTM [Bowman S R, Angeli G, Potts C, et al. A large annotated corpus for learning natural language inference[J]. arXiv preprint arXiv:1508.05326, 2015.](https://nlp.stanford.edu/pubs/snli_paper.pdf)
 
 <div align=center>
   <img src="imgs/15LSTM.jpg"/>
 </div>
 
-This method is very simple. The encode layer used LSTM network. The detail information model can be found in this paper. I build this model and improve it. (The LSTM component becomes BiLSTM component). [code link](models/BiLSTM.py)
+This method is very simple. The encode layer used LSTM network. The detail information model can be found in this paper. I build this model and improve it. (The LSTM component becomes BiLSTM component). [tensorflow code link](models/BiLSTM.py)
+
+
+> 2. TBCNN [Mou L, Men R, Li G, et al. Natural language inference by tree-based convolution and heuristic matching[J]. arXiv preprint arXiv:1512.08422, 2015.](https://arxiv.org/pdf/1512.08422.pdf)
+
+> 3. Tree-LSTM [todo..](https://arxiv.org/pdf/1512.08422.pdf)
+
+> 4. Match-LSTM [todo..](https://arxiv.org/pdf/1512.08422.pdf)
 
 ## Attention-based model
 
