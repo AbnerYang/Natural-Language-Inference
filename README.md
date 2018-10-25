@@ -8,5 +8,5 @@
 
 > There are usually three types of data (Premise, Hypothesis and label) to complete this task. The relationship of different component can be found as follows:
 
-![image][imgs/framework.jpg]
+![Alt text](https://github.com/AbnerYang/Natural-Language-Inference/imgs/framework.jpg)
 
