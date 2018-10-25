@@ -47,7 +47,7 @@ feature over the two bigrams.
   <img src="imgs/15LSTM.jpg"/>
 </div>
 
-This method is very simple. The encode layer used LSTM network. The detail information model can be found in this paper. I build this model and improve it. (The LSTM component becomes BiLSTM component). [code link](models/bilstm.py)
+This method is very simple. The encode layer used LSTM network. The detail information model can be found in this paper. I build this model and improve it. (The LSTM component becomes BiLSTM component). [code link](models/BiLSTM.py)
 
 ## Attention-based model
 
