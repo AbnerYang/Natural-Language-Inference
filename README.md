@@ -12,7 +12,11 @@
 
 > In the next section, I will mainly introduce the feature-based model, encoder-based model, and attention-based model.
 
-## Feature based model
+## Feature-based model
+
+> Feature-based model was traditional method and had a limit performace. However, the feature of this methods is also very interesting. I will list the features in this paper.[Bowman S R, Angeli G, Potts C, et al. A large annotated corpus for learning natural language inference[J]. arXiv preprint arXiv:1508.05326, 2015.] 
+
+
 
 ## encoder-based model
 
