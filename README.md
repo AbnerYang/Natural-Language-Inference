@@ -6,16 +6,7 @@
 
 > The Natural Language Inference models can be used in many problems in different fields. such as question-answer, text entailment inference and so on. this repository mainly focuses on text entailment inference.
 
-> There are usually three types of data (Premise, Hypothesis and label) to complete this task. 
+> There are usually three types of data (Premise, Hypothesis and label) to complete this task. The relationship of different component can be found as follows:
 
-```flow
-st=>start: Start:>https://www.markdown-syntax.com
-io=>inputoutput: verification
-op=>operation: Your Operation
-cond=>condition: Yes or No?
-sub=>subroutine: Your Subroutine
-e=>end
-st->io->op->cond
-cond(yes)->e
-cond(no)->sub->io
-` ``
+![image][image/framework.jpg]
+
